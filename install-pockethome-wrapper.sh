@@ -6,6 +6,9 @@ cd
 # Credits to Marshmallow from the NTC Forum
 # https://bbs.nextthing.co/t/pocket-home-marshmallow-edition/6579
 
+echo "installing dependencies"
+sudo apt-get install -y xinput-calibrator
+
 echo "Customizing Pocket Home with Marshmallow Edition"
 echo "Downloading Pocket Home installation files"
 wget -O install-pockethome http://bit.ly/29zN90q
